@@ -6,7 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F4353D9F-2984-4CE5-B6BE-F4C5D274955B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>EmbedGanttChartInDashboardSample</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -77,6 +78,7 @@
     <Reference Include="DevExpress.Xpf.Dashboard.v18.2" />
     <Reference Include="DevExpress.Xpf.Docking.v18.2" />
     <Reference Include="DevExpress.Xpf.Gantt.v18.2" />
+    <Reference Include="DevExpress.Xpf.Layout.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Printing.v18.2" />
     <Reference Include="DevExpress.Xpf.Grid.v18.2" />
     <Reference Include="DevExpress.Xpf.Grid.v18.2.Core" />
@@ -180,6 +182,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
