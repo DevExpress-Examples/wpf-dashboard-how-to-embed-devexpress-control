@@ -4,11 +4,15 @@ This example demonstrates how to embed a [DevExpress Gantt Control](https://comm
 
 ![screenshot](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-embed-devexpress-control/blob/18.2.6%2B/images/screenshot.png)
 
-The application displays a sample dashboard [created in Visual Studio ](https://docs.devexpress.com/Dashboard/17519) that contains the [Grid dashboard item](https://docs.devexpress.com/Dashboard/15150) bound to Gantt-specific data (hierarchical tasks, with start and end values). 
+The application displays a sample dashboard [created in Visual Studio ](https://docs.devexpress.com/Dashboard/17519) that contains the [Grid dashboard item](https://docs.devexpress.com/Dashboard/15150) bound to Gantt-specific data (data fields contain hierarchical tasks, start and end values).
 
-The main application's window uses the [DashboardControl.GridItemStyleSelector](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.GridItemStyleSelector) property to assign the data template with the Gantt control as the Grid dashboard item's content.
+The main application's window contains the Gantt control placed in the _ganttStyle_ style included in XAML as resource. The Gantt control is bound to the window's data context. The GanttControl's **ItemsSource** property is bound to the _GanttTasks_ View Model's property declared in a [POCO View Model](https://docs.devexpress.com/WPF/17352).
 
-The Gantt control's SizeChanged event handler waits until the dashboard view model loads completely and uses the [DashboardControl.GetItemData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.GetItemData(System.String)) method to obtain the [MultiDimensionalData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ViewerData.MultiDimensionalData). The **ConfigureGanttTasks** method converts data to the _ObservableCollection&lt;GanttTask&gt;_ type. The resultant data is the Gantt control's data context.
+The main application's window uses the [DashboardControl.GridItemStyleSelector](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.GridItemStyleSelector) property to assign the _ganttStyle_ style as the Grid dashboard item's content. The **Gantt control** is rendered and displayed instead of the [GridDashboardItem](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.GridDashboardItem).
+
+The Gantt control's _SizeChanged_ event is handled to feed the control with data. The handler code waits until the data load finishes and calls the [DashboardControl.GetItemData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.GetItemData(System.String)) method to obtain the [MultiDimensionalData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ViewerData.MultiDimensionalData) object that contains data for the embedded control. The **ConfigureGanttTasks** method converts data to the _ObservableCollection&lt;GanttTask&gt;_ type. The resultant collection is assigned to the _GanttTasks_ View Model's property.
+
+> This approach is not limited to DevExpress data-bound controls and can be used to embed any WPF control in a dashboard.
 
 **See also:**
 
