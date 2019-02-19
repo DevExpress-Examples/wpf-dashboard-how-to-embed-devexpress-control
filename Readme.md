@@ -8,7 +8,7 @@ The application displays a sample dashboard [created in Visual Studio ](https://
 
 The main application's window uses the [DashboardControl.GridItemStyleSelector](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.GridItemStyleSelector) property to assign the data template with the Gantt control as the Grid dashboard item's content.
 
-The Gantt control's SizeChanged event handler waits until the dashboard view model loads completely and uses the [DashboardControl.GetItemData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.GetItemData(System.String)) method to obtain the [MultiDimensionalData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ViewerData.MultiDimensionalData). The **ConfigureGanttTasks** method converts data to the _ObservableCollection<GanttTask>_type. The resultant data is the Gantt control's data context.
+The Gantt control's SizeChanged event handler waits until the dashboard view model loads completely and uses the [DashboardControl.GetItemData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.GetItemData(System.String)) method to obtain the [MultiDimensionalData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ViewerData.MultiDimensionalData). The **ConfigureGanttTasks** method converts data to the _ObservableCollection&lt;GanttTask&gt;_ type. The resultant data is the Gantt control's data context.
 
 **See also:**
 
