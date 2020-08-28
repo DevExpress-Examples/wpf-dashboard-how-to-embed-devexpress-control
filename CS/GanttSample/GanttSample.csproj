@@ -75,7 +75,7 @@
     <Reference Include="DevExpress.Xpf.Dashboard.v18.2" />
     <Reference Include="DevExpress.Xpf.Docking.v18.2" />
     <Reference Include="DevExpress.Xpf.Gantt.v18.2" />
-    <Reference Include="DevExpress.Xpf.Layout.v18.2.Core, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Layout.v18.2.Core, Version=18.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Printing.v18.2" />
     <Reference Include="DevExpress.Xpf.Grid.v18.2" />
     <Reference Include="DevExpress.Xpf.Grid.v18.2.Core" />
