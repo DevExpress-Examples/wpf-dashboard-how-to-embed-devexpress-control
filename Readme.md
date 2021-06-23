@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [GanttViewModel.cs](./CS/GanttSample/GanttViewModel.cs)
+* [DashboardData.cs](./CS/GanttSample/DashboardData.cs)
+* [Window.xaml](./CS/GanttSample/Window.xaml)
+<!-- default file list end -->
+
 # Dashboard for WPF - How to Embed a DevExpress Control in the WPF Dashboard
 
 This example demonstrates how to embed a [DevExpress Gantt Control](https://community.devexpress.com/blogs/wpf/archive/2018/10/31/wpf-gantt-control-ctp-v18-2.aspx) in a dashboard loaded in [WPF Viewer](https://docs.devexpress.com/Dashboard/119813) and bind the Gantt control to the dashboard's data. It uses a style selector to substitute a regular dashboard item with an arbitrary WPF control, and handles its SizeChanged event to provide it with data.
