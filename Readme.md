@@ -22,9 +22,12 @@ The Gantt control's **SizeChanged event** is handled to provide data to the cont
 
 > This approach is not limited to DevExpress data-bound controls and can be used to embed any WPF control in a dashboard.
 
-**See also:**
+## Documentation
 
 * [DevExpress WPF Controls Common Concepts](https://docs.devexpress.com/WPF/6794)
 * [DevExpress MVVM Framework for WPF](https://docs.devexpress.com/WPF/15112)
 * [WPF Dashboard Viewer - Styles and Templates](https://docs.devexpress.com/Dashboard/400142)
-* [How to Customize the GridDashboardItem Using Template](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-customize-items-using-templates)
+
+## More Examples
+
+* [Dashboard for WPF - How to customize the GridDashboardItem using template](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-customize-items-using-templates)
