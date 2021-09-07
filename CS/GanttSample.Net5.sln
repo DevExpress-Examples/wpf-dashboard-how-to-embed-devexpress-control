@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttSample", "GanttSample\GanttSample.csproj", "{F4353D9F-2984-4CE5-B6BE-F4C5D274955B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GanttSample", "GanttSample\GanttSample.Net5.csproj", "{F4353D9F-2984-4CE5-B6BE-F4C5D274955B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
