@@ -3,13 +3,6 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830462)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [GanttViewModel.cs](./CS/GanttSample/GanttViewModel.cs)
-* [DashboardData.cs](./CS/GanttSample/DashboardData.cs)
-* [Window.xaml](./CS/GanttSample/Window.xaml)
-<!-- default file list end -->
 
 # Dashboard for WPF - How to embed a DevExpress control in the WPF Dashboard
 
@@ -26,6 +19,14 @@ The main application's window uses the [DashboardControl.GridItemStyleSelector](
 The Gantt control's **SizeChanged event** is handled to provide data to the control. The handler code waits until the data is loaded and calls the [DashboardControl.GetItemData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.GetItemData(System.String)) method to obtain the [MultiDimensionalData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ViewerData.MultiDimensionalData) object that contains the embedded control's data. The **ConfigureGanttTasks** method converts data to the _ObservableCollection&lt;GanttTask&gt;_ type. The resultant collection is assigned to the _GanttTasks_ View Model's property.
 
 > This approach is not limited to DevExpress data-bound controls and can be used to embed any WPF control in a dashboard.
+
+<!-- default file list -->
+## Files to look at
+
+* [GanttViewModel.cs](./CS/GanttSample/GanttViewModel.cs)
+* [DashboardData.cs](./CS/GanttSample/DashboardData.cs)
+* [Window.xaml](./CS/GanttSample/Window.xaml)
+<!-- default file list end -->
 
 ## Documentation
 
