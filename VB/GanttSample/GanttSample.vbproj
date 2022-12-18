@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F4353D9F-2984-4CE5-B6BE-F4C5D274955B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>EmbedGanttChartInDashboardSample</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -38,63 +37,66 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v21.1.Core">
+    <Reference Include="DevExpress.Charts.v22.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v21.1.Core" />
-    <Reference Include="DevExpress.Dashboard.v21.1.Core" />
-    <Reference Include="DevExpress.Dashboard.v21.1.Wpf" />
-    <Reference Include="DevExpress.Data.v21.1">
+    <Reference Include="DevExpress.Sparkline.v22.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v22.2.Core" />
+    <Reference Include="DevExpress.Dashboard.v22.2.Wpf" />
+    <Reference Include="DevExpress.Drawing.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v21.1" />
-    <Reference Include="DevExpress.Map.v21.1.Core" />
-    <Reference Include="DevExpress.PivotGrid.v21.1.Core" />
-    <Reference Include="DevExpress.Xpf.Charts.v21.1">
+    <Reference Include="DevExpress.Data.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v21.1">
+    <Reference Include="DevExpress.DataAccess.v22.2" />
+    <Reference Include="DevExpress.Map.v22.2.Core" />
+    <Reference Include="DevExpress.PivotGrid.v22.2.Core" />
+    <Reference Include="DevExpress.Xpf.Charts.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.1.Export">
+    <Reference Include="DevExpress.Mvvm.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v21.1.Core">
+    <Reference Include="DevExpress.RichEdit.v22.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v21.1.Core">
+    <Reference Include="DevExpress.Office.v22.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v21.1.Core">
+    <Reference Include="DevExpress.RichEdit.v22.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.CodeView.v21.1">
+    <Reference Include="DevExpress.Printing.v22.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v21.1">
+    <Reference Include="DevExpress.Xpf.CodeView.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v21.1">
+    <Reference Include="DevExpress.Data.Desktop.v22.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.LayoutControl.v21.1" />
-    <Reference Include="DevExpress.Xpf.Dashboard.v21.1" />
-    <Reference Include="DevExpress.Xpf.Docking.v21.1" />
-    <Reference Include="DevExpress.Xpf.Gantt.v21.1" />
-    <Reference Include="DevExpress.Xpf.Layout.v21.1.Core, Version=21.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Xpf.Printing.v21.1" />
-    <Reference Include="DevExpress.Xpf.Grid.v21.1" />
-    <Reference Include="DevExpress.Xpf.Grid.v21.1.Core" />
-    <Reference Include="DevExpress.Xpf.Map.v21.1" />
-    <Reference Include="DevExpress.Xpf.PivotGrid.v21.1" />
-    <Reference Include="DevExpress.Xpf.PropertyGrid.v21.1" />
-    <Reference Include="DevExpress.Xpf.Office.v21.1" />
-    <Reference Include="DevExpress.Xpf.RichEdit.v21.1" />
-    <Reference Include="DevExpress.Xpf.TreeMap.v21.1" />
-    <Reference Include="DevExpress.Xpo.v21.1" />
-    <Reference Include="DevExpress.XtraCharts.v21.1" />
-    <Reference Include="DevExpress.CodeParser.v21.1" />
-    <Reference Include="DevExpress.XtraReports.v21.1" />
+    <Reference Include="DevExpress.Xpf.Core.v22.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v22.2" />
+    <Reference Include="DevExpress.Xpf.Dashboard.v22.2" />
+    <Reference Include="DevExpress.Xpf.Docking.v22.2" />
+    <Reference Include="DevExpress.Xpf.Gantt.v22.2" />
+    <Reference Include="DevExpress.Xpf.Layout.v22.2.Core, Version=22.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Printing.v22.2" />
+    <Reference Include="DevExpress.Xpf.Grid.v22.2" />
+    <Reference Include="DevExpress.Xpf.Grid.v22.2.Core" />
+    <Reference Include="DevExpress.Xpf.Map.v22.2" />
+    <Reference Include="DevExpress.Xpf.PivotGrid.v22.2" />
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v22.2" />
+    <Reference Include="DevExpress.Xpf.Office.v22.2" />
+    <Reference Include="DevExpress.Xpf.RichEdit.v22.2" />
+    <Reference Include="DevExpress.Xpf.TreeMap.v22.2" />
+    <Reference Include="DevExpress.Xpo.v22.2" />
+    <Reference Include="DevExpress.XtraCharts.v22.2" />
+    <Reference Include="DevExpress.CodeParser.v22.2" />
+    <Reference Include="DevExpress.XtraReports.v22.2" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
