@@ -20,13 +20,11 @@ The Gantt control's **SizeChanged event** is handled to provide data to the cont
 
 > This approach is not limited to DevExpress data-bound controls and can be used to embed any WPF control in a dashboard.
 
-<!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [GanttViewModel.cs](./CS/GanttSample/GanttViewModel.cs)
 * [DashboardData.cs](./CS/GanttSample/DashboardData.cs)
 * [Window.xaml](./CS/GanttSample/Window.xaml)
-<!-- default file list end -->
 
 ## Documentation
 
