@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ChartSample</RootNamespace>
     <AssemblyName>EmbedGanttChartInDashboardSample</AssemblyName>
@@ -30,38 +30,38 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Charts" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Charts.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.CodeParser" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Dashboard.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Data" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.DataAccess" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Map.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.PivotGrid.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Reporting.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Sparkline.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Charts" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Dashboard" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Docking" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Gantt" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Map" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Office" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.PivotGrid" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Printing" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.PropertyGrid" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.RichEdit" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.TreeMap" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Xpo" Version="22.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.2.*-*" />
+    <PackageReference Include="DevExpress.Charts" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Charts.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.CodeParser" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Dashboard.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Data" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.DataAccess" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Map.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.PivotGrid.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Sparkline.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Charts" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Dashboard" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Docking" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Gantt" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Map" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Office" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.PivotGrid" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.PropertyGrid" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.RichEdit" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.TreeMap" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Xpo" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="24.2.*-*" />
   </ItemGroup>
 </Project>
